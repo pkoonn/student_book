@@ -1,10 +1,6 @@
 class CreateUsers < ActiveRecord::Migration[5.0]
-
-    # These are extensions that must be enabled in order to support this database
-    enable_extension "plpgsql"
-
     def change
-        create_table "users", force: :cascade do |t|
+        create_table :users, primary_key: "user_id" do |t|
             t.string     "name",      null: false
             t.string     "kana",      null: false
             t.string     "number",    null: false       # 学籍番号 or 教師ナンバー
