@@ -19,8 +19,6 @@ gem 'jbuilder', '~> 2.5'
 # 認証に使う
 gem 'devise'
 # rails consoleをリッチにする
-gem 'pry-rails'
-# html template部分をスッキリ書く
 gem 'slim-rails'
 
 group :development, :test do
