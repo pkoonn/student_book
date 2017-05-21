@@ -2,8 +2,13 @@
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
   <div class="field">
+<<<<<<< HEAD
     <%= f.label :login %><br />
     <%= f.text_field :login, autofocus: true %>
+=======
+    <%= f.label :email %><br />
+    <%= f.email_field :email, autofocus: true %>
+>>>>>>> fba1d02a5d0e4f4110d45438ca98341bae9b336f
   </div>
 
   <div class="field">
