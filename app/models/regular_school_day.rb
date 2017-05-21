@@ -1,0 +1,2 @@
+class RegularSchoolDay < ApplicationRecord
+end
