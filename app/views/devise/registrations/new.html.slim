@@ -1,0 +1,46 @@
+h2
+  | Sign up
+= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f|
+  = devise_error_messages!
+  .field
+    |  <<<<<<< HEAD 
+    = f.label :user_name
+    br
+    = f.text_field :user_name, autofocus: true
+  .field
+    = f.label :name
+    br
+    = f.text_field :name, autofocus: true
+  .field
+    = f.label :kana
+    br
+    = f.text_field :kana, autofocus: true
+  .field
+    = f.label :number
+    br
+    = f.text_field :number, autofocus: true
+  .field
+    = f.label :course_id
+    br
+    = f.text_field :course_id, autofocus: true
+    |  ======= 
+    = f.label :email
+    br
+    = f.email_field :email, autofocus: true
+    |  >>>>>>> fba1d02a5d0e4f4110d45438ca98341bae9b336f 
+  .field
+    = f.label :password
+    - if @minimum_password_length
+      em
+        | (
+        = @minimum_password_length
+        |  characters minimum)
+    br
+    = f.password_field :password, autocomplete: "off"
+  .field
+    = f.label :password_confirmation
+    br
+    = f.password_field :password_confirmation, autocomplete: "off"
+  .actions
+    = f.submit "Sign up"
+= render "devise/shared/links"
