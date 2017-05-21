@@ -3,6 +3,7 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable, :recoverable, :rememberable, :trackable, :validatable, authentication_keys: [:login]
   attr_accessor :login
+  before_save :set_type
 
   def self.find_first_by_auth_conditions(warden_conditions)
     conditions = warden_conditions.dup
@@ -20,5 +21,12 @@ class User < ApplicationRecord
 
   def email_changed?
     false
+  end
+
+  private
+
+  # ‚Ð‚Æ‚Ü‚¸‘S‚Ä¶“k‚Åì¬
+  def set_type
+    self.type = 'Student'
   end
 end
