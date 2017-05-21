@@ -6,7 +6,7 @@ Devise.setup do |config|
   # confirmation, reset password and unlock tokens in the database.
   # Devise will use the `secret_key_base` as its `secret_key`
   # by default. You can change it below and use your own secret key.
-  # config.secret_key = '3ffc37b87e63bb41d495f40af345bfa366f66463100df82841c2c43a04dbf7a770d684104688980884ee034ccfd9aeee780ab22ad3d6d93435c8f776e44ea9f8'
+  # config.secret_key = '058e711db412922c381ad744af4af155948b25dbcda99ad69fe5a7e55113d005aa44b56e30fa6b811db7bfff821c1575ea3d834a4891bfdb8e67fa3c1d8f4be9'
 
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
@@ -46,12 +46,12 @@ Devise.setup do |config|
   # Configure which authentication keys should be case-insensitive.
   # These keys will be downcased upon creating or modifying a user and when used
   # to authenticate or find a user. Default is :email.
-  config.case_insensitive_keys = [:email]
+  config.case_insensitive_keys = [:login]
 
   # Configure which authentication keys should have whitespace stripped.
   # These keys will have whitespace before and after removed upon creating or
   # modifying a user and when used to authenticate or find a user. Default is :email.
-  config.strip_whitespace_keys = [:email]
+  config.strip_whitespace_keys = [:login]
 
   # Tell if authentication through request.params is enabled. True by default.
   # It can be set to an array that will enable params authentication only for the
@@ -108,7 +108,7 @@ Devise.setup do |config|
   config.stretches = Rails.env.test? ? 1 : 11
 
   # Set up a pepper to generate the hashed password.
-  # config.pepper = '90486cdf06ec4cf9f4645c398b58ca3ad336b5eb542c4e881df45c84a61ff148ab571eaad165f907ca9b3a3ef1fba415b489a4a176cab69a7a60f2d0df12377a'
+  # config.pepper = 'b9c21dee5c34f683aae992bc44661f19265f7d4ee93525c29a9dbe8fbe7afb57d48694e5dd0db61f61d545efccd858563d2ac200a16fa17648d5e5c69b1359f4'
 
   # Send a notification to the original email when the user's email is changed.
   # config.send_email_changed_notification = false
