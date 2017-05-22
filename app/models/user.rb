@@ -25,7 +25,6 @@ class User < ApplicationRecord
 
   private
 
-  # ‚Ð‚Æ‚Ü‚¸‘S‚Ä¶“k‚Åì¬
   def set_type
     self.type = 'Student'
   end
