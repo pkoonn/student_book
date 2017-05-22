@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
     'https://github.com/#{repo_name}.git'
 end
 
+#bootstrap繧剃ｽｿ逕ｨ
+gem 'bootstrap-sass',       '3.2.0.0'
 gem 'rails', '~> 5.0.3'
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.0'
@@ -16,9 +18,9 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
-# 認証に使う
+# login
 gem 'devise'
-# rails consoleをリッチにする
+# slim
 gem 'slim-rails'
 
 group :development, :test do
