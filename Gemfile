@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
     'https://github.com/#{repo_name}.git'
 end
 
+# hemlファイルをslimに変換
+gem 'html2slim'
 #bootstrapを使用
 gem 'bootstrap-sass',       '3.2.0.0'
 gem 'rails', '~> 5.0.3'
