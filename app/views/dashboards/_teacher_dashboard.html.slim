@@ -1,0 +1,28 @@
+h2 teacherが持っているsubjects
+
+table.table
+  thead
+    tr
+      th user_id
+      th classroom_id
+      th timetable
+      th name
+      th order
+      th year
+      th semester
+      th day_of_week
+      th created_at
+      th updated_at
+  tbody
+    - current_user.subjects.each do |subject|
+      tr
+        td = subject.user.name
+        td = subject.classroom_id
+        td = subject.timetable
+        td = subject.name
+        td = subject.order
+        td = subject.year
+        td = subject.semester
+        td = subject.day_of_week
+        td = subject.created_at
+        td = subject.updated_at

@@ -1,3 +1,4 @@
-h2 ログイン直後の画面
-
-= link_to 'ログアウト', destroy_user_session_path, method: :delete
+- if current_user.teacher?
+  = render partial: 'teacher_dashboard'
+- else
+  = render partial: 'student_dashboard'

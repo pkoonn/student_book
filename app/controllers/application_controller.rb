@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
   protected
 
   def configure_permitted_parameters
-    allow_parameters = %i[user_name name kana number course_id]                 # Userテーブルに新しいカラムを追加した場合は[]の中にも追加すること
+    allow_parameters = %i[user_name name kana number course_id]
     devise_parameter_sanitizer.permit(:sign_up, keys: allow_parameters)
     devise_parameter_sanitizer.permit(:account_update, keys: allow_parameters)
   end

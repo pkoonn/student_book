@@ -1,10 +1,31 @@
 doctype html
 html
   head
-    title
-      | StudentBook
+    title StudentBook
     = csrf_meta_tags
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   body
+    nav.navbar.navbar-default
+      .container-fluid
+        .navbar-header
+          button.navbar-toggle.collapsed[type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"]
+            span.sr-only
+              | Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          = link_to 'Student Book', root_path, class: 'navbar-brand'
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+          - if current_user
+            ul.nav.navbar-nav
+              li = link_to '出席確認', root_path
+              li = link_to 'お知らせ', root_path
+              li = link_to 'ヘルプ', root_path
+          ul.nav.navbar-nav.navbar-right
+            li
+              - if current_user
+                = link_to current_user.name, destroy_user_session_path, method: :delete
+              - else
+                = link_to 'ログイン', new_user_session_path
     = yield
