@@ -1,0 +1,9 @@
+table.table
+  thead
+    tr
+      th 授業回数
+  tbody
+    - @subject.attendance_count.times do |count|
+      - count += 1
+      tr
+        td = link_to count, teacher_subject_attendance_path(current_user.id, @subject.id, count)
