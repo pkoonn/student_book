@@ -1,11 +1,11 @@
-current directory: /Users/MoriwakiTomoka/Downloads/student_book-master/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
-/usr/local/opt/ruby/bin/ruby -r ./siteconf20170619-9789-24hr6h.rb extconf.rb
+current directory: /Users/MoriwakiTomoka/apps/rails/student_book/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20170703-62241-cxzosu.rb extconf.rb
 creating Makefile
 
-current directory: /Users/MoriwakiTomoka/Downloads/student_book-master/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+current directory: /Users/MoriwakiTomoka/apps/rails/student_book/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
 make "DESTDIR=" clean
 
-current directory: /Users/MoriwakiTomoka/Downloads/student_book-master/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+current directory: /Users/MoriwakiTomoka/apps/rails/student_book/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
 make "DESTDIR="
 compiling bcrypt_ext.c
 bcrypt_ext.c:17:25: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
@@ -46,6 +46,6 @@ compiling crypt_gensalt.c
 compiling wrapper.c
 linking shared-object bcrypt_ext.bundle
 
-current directory: /Users/MoriwakiTomoka/Downloads/student_book-master/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+current directory: /Users/MoriwakiTomoka/apps/rails/student_book/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 bcrypt_ext.bundle ./.gem.20170619-9789-n3heyj
+/usr/bin/install -c -m 0755 bcrypt_ext.bundle ./.gem.20170703-62241-1sgie75

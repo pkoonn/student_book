@@ -1,11 +1,11 @@
-current directory: /Users/MoriwakiTomoka/Downloads/student_book-master/vendor/bundle/ruby/2.3.0/gems/byebug-9.0.6/ext/byebug
-/usr/local/opt/ruby/bin/ruby -r ./siteconf20170619-9789-mhplcv.rb extconf.rb
+current directory: /Users/MoriwakiTomoka/apps/rails/student_book/vendor/bundle/ruby/2.3.0/gems/byebug-9.0.6/ext/byebug
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20170703-62241-177mezp.rb extconf.rb
 creating Makefile
 
-current directory: /Users/MoriwakiTomoka/Downloads/student_book-master/vendor/bundle/ruby/2.3.0/gems/byebug-9.0.6/ext/byebug
+current directory: /Users/MoriwakiTomoka/apps/rails/student_book/vendor/bundle/ruby/2.3.0/gems/byebug-9.0.6/ext/byebug
 make "DESTDIR=" clean
 
-current directory: /Users/MoriwakiTomoka/Downloads/student_book-master/vendor/bundle/ruby/2.3.0/gems/byebug-9.0.6/ext/byebug
+current directory: /Users/MoriwakiTomoka/apps/rails/student_book/vendor/bundle/ruby/2.3.0/gems/byebug-9.0.6/ext/byebug
 make "DESTDIR="
 compiling breakpoint.c
 compiling byebug.c
@@ -14,6 +14,6 @@ compiling locker.c
 compiling threads.c
 linking shared-object byebug/byebug.bundle
 
-current directory: /Users/MoriwakiTomoka/Downloads/student_book-master/vendor/bundle/ruby/2.3.0/gems/byebug-9.0.6/ext/byebug
+current directory: /Users/MoriwakiTomoka/apps/rails/student_book/vendor/bundle/ruby/2.3.0/gems/byebug-9.0.6/ext/byebug
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20170619-9789-oz1ro3/byebug
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20170703-62241-16mi1dr/byebug

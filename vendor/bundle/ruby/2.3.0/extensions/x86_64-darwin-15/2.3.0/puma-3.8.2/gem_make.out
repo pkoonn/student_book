@@ -1,5 +1,5 @@
-current directory: /Users/MoriwakiTomoka/Downloads/student_book-master/vendor/bundle/ruby/2.3.0/gems/puma-3.8.2/ext/puma_http11
-/usr/local/opt/ruby/bin/ruby -r ./siteconf20170619-9789-btt7mp.rb extconf.rb
+current directory: /Users/MoriwakiTomoka/apps/rails/student_book/vendor/bundle/ruby/2.3.0/gems/puma-3.8.2/ext/puma_http11
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20170703-62241-18bun7z.rb extconf.rb
 checking for BIO_read() in -lcrypto... yes
 checking for SSL_CTX_new() in -lssl... yes
 checking for openssl/bio.h... yes
@@ -7,12 +7,12 @@ creating Makefile
 
 To see why this extension failed to compile, please check the mkmf.log which can be found here:
 
-  /Users/MoriwakiTomoka/Downloads/student_book-master/vendor/bundle/ruby/2.3.0/extensions/x86_64-darwin-15/2.3.0/puma-3.8.2/mkmf.log
+  /Users/MoriwakiTomoka/apps/rails/student_book/vendor/bundle/ruby/2.3.0/extensions/x86_64-darwin-15/2.3.0/puma-3.8.2/mkmf.log
 
-current directory: /Users/MoriwakiTomoka/Downloads/student_book-master/vendor/bundle/ruby/2.3.0/gems/puma-3.8.2/ext/puma_http11
+current directory: /Users/MoriwakiTomoka/apps/rails/student_book/vendor/bundle/ruby/2.3.0/gems/puma-3.8.2/ext/puma_http11
 make "DESTDIR=" clean
 
-current directory: /Users/MoriwakiTomoka/Downloads/student_book-master/vendor/bundle/ruby/2.3.0/gems/puma-3.8.2/ext/puma_http11
+current directory: /Users/MoriwakiTomoka/apps/rails/student_book/vendor/bundle/ruby/2.3.0/gems/puma-3.8.2/ext/puma_http11
 make "DESTDIR="
 compiling http11_parser.c
 ext/puma_http11/http11_parser.rl:111:17: warning: comparison of integers of different signs: 'long' and 'unsigned long' [-Wsign-compare]
@@ -37,6 +37,6 @@ mini_ssl.c:260:13: warning: implicit conversion loses integer precision: 'unsign
 compiling puma_http11.c
 linking shared-object puma/puma_http11.bundle
 
-current directory: /Users/MoriwakiTomoka/Downloads/student_book-master/vendor/bundle/ruby/2.3.0/gems/puma-3.8.2/ext/puma_http11
+current directory: /Users/MoriwakiTomoka/apps/rails/student_book/vendor/bundle/ruby/2.3.0/gems/puma-3.8.2/ext/puma_http11
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20170619-9789-uq8euv/puma
+/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20170703-62241-1h3p5ai/puma

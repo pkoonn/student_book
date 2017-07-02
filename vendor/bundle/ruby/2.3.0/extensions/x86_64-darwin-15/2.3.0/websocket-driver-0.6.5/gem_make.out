@@ -1,15 +1,15 @@
-current directory: /Users/MoriwakiTomoka/Downloads/student_book-master/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.5/ext/websocket-driver
-/usr/local/opt/ruby/bin/ruby -r ./siteconf20170619-9789-7gmfj6.rb extconf.rb --use-system-libraries
+current directory: /Users/MoriwakiTomoka/apps/rails/student_book/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20170703-62241-1slne81.rb extconf.rb --use-system-libraries
 creating Makefile
 
-current directory: /Users/MoriwakiTomoka/Downloads/student_book-master/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+current directory: /Users/MoriwakiTomoka/apps/rails/student_book/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.5/ext/websocket-driver
 make "DESTDIR=" clean
 
-current directory: /Users/MoriwakiTomoka/Downloads/student_book-master/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+current directory: /Users/MoriwakiTomoka/apps/rails/student_book/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.5/ext/websocket-driver
 make "DESTDIR="
 compiling websocket_mask.c
 linking shared-object websocket_mask.bundle
 
-current directory: /Users/MoriwakiTomoka/Downloads/student_book-master/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+current directory: /Users/MoriwakiTomoka/apps/rails/student_book/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.5/ext/websocket-driver
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20170619-9789-10lsjqd
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20170703-62241-10kmz7x

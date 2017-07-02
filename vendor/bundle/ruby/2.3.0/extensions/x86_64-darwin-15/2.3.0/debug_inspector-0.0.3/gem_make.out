@@ -1,15 +1,15 @@
-current directory: /Users/MoriwakiTomoka/Downloads/student_book-master/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.3/ext/debug_inspector
-/usr/local/opt/ruby/bin/ruby -r ./siteconf20170619-9789-1bivc0n.rb extconf.rb
+current directory: /Users/MoriwakiTomoka/apps/rails/student_book/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20170703-62241-1nqtyfa.rb extconf.rb
 creating Makefile
 
-current directory: /Users/MoriwakiTomoka/Downloads/student_book-master/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+current directory: /Users/MoriwakiTomoka/apps/rails/student_book/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.3/ext/debug_inspector
 make "DESTDIR=" clean
 
-current directory: /Users/MoriwakiTomoka/Downloads/student_book-master/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+current directory: /Users/MoriwakiTomoka/apps/rails/student_book/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.3/ext/debug_inspector
 make "DESTDIR="
 compiling debug_inspector.c
 linking shared-object debug_inspector.bundle
 
-current directory: /Users/MoriwakiTomoka/Downloads/student_book-master/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+current directory: /Users/MoriwakiTomoka/apps/rails/student_book/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.3/ext/debug_inspector
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20170619-9789-xxvldv
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20170703-62241-9szvmh
