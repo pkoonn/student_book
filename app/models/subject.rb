@@ -18,5 +18,6 @@
 class Subject < ApplicationRecord
   belongs_to :user
   has_many :user_subjects
-  has_many :subjects, through: :user_subjects
+  has_many :users, through: :user_subjects
+  has_many :attendances
 end
