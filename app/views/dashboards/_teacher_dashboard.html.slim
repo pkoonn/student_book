@@ -3,7 +3,7 @@ h2 teacherが持っているsubjects
 table.table
   thead
     tr
-      th user_id
+      th teacher name
       th classroom_id
       th timetable
       th name
@@ -16,10 +16,10 @@ table.table
   tbody
     - current_user.subjects.each do |subject|
       tr
-        td = subject.user.name
+        td = subject.teacher.name
         td = subject.classroom_id
         td = subject.timetable
-        td = subject.name
+        td = link_to subject.name, teacher_subject_path(current_user.id, subject.id)
         td = subject.order
         td = subject.year
         td = subject.semester
