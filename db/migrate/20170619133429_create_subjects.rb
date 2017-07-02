@@ -1,7 +1,7 @@
 class CreateSubjects < ActiveRecord::Migration[5.0]
   def change
     create_table :subjects do |t|
-      t.integer :user_id
+      t.integer :teacher_id
       t.integer :classroom_id
       t.integer :timetable, null: false, array: true, default: []
       t.string :name, null: false
