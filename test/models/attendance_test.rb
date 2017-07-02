@@ -3,7 +3,7 @@
 # Table name: attendances
 #
 #  id         :integer          not null, primary key
-#  user_id    :integer
+#  student_id :integer
 #  subject_id :integer
 #  count      :integer
 #  status     :string

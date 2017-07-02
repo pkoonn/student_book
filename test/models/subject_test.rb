@@ -3,7 +3,7 @@
 # Table name: subjects
 #
 #  id           :integer          not null, primary key
-#  user_id      :integer
+#  teacher_id   :integer
 #  classroom_id :integer
 #  timetable    :integer          default([]), not null, is an Array
 #  name         :string           not null

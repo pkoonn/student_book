@@ -3,7 +3,7 @@
 # Table name: attendances
 #
 #  id         :integer          not null, primary key
-#  user_id    :integer
+#  student_id :integer
 #  subject_id :integer
 #  count      :integer
 #  status     :string
@@ -12,6 +12,14 @@
 #
 
 class Attendance < ApplicationRecord
-  belongs_to :user
+  belongs_to :student
   belongs_to :subject
+
+  def late?
+    status == 'late'
+  end
+
+  def absence?
+    status == 'absence'
+  end
 end

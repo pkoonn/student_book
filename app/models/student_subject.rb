@@ -1,15 +1,15 @@
 # == Schema Information
 #
-# Table name: user_subjects
+# Table name: student_subjects
 #
 #  id         :integer          not null, primary key
-#  user_id    :integer
+#  student_id :integer
 #  subject_id :integer
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
 
-class UserSubject < ApplicationRecord
-  belongs_to :user
+class StudentSubject < ApplicationRecord
+  belongs_to :student
   belongs_to :subject
 end

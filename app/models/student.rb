@@ -21,6 +21,7 @@
 #
 
 class Student < User
-  has_many :user_subjects
-  has_many :subjects, through: :user_subjects
+  has_many :student_subjects
+  has_many :subjects, through: :student_subjects
+  has_many :attendances
 end
