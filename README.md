@@ -6,6 +6,9 @@
   - psql（PostgreSQL）9.6.3
   - MaxOS
 
+# domain model
+![](https://user-images.githubusercontent.com/13940507/27767366-fc5efb26-5f30-11e7-8cb7-7064b5cee81d.png)
+
 # MEMO
  もしこのアプリケーションのER図を作成したければ**graphviz**をインストール
  ```sh
