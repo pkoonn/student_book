@@ -1,0 +1,25 @@
+LOG:  database system was interrupted; last known up at 2017-07-04 18:08:25 JST
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  invalid record length at 0/2298AE0: wanted 24, got 0
+LOG:  redo is not required
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  duplicate key value violates unique constraint "index_users_on_user_name"
+DETAIL:  Key (user_name)=(admin) already exists.
+STATEMENT:  INSERT INTO "users" ("encrypted_password", "name", "kana", "number", "user_name", "course_id", "type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"
+ERROR:  database "student_book_development" is being accessed by other users
+DETAIL:  There are 5 other sessions using the database.
+STATEMENT:  DROP DATABASE IF EXISTS "student_book_development"
+ERROR:  database "student_book_development" is being accessed by other users
+DETAIL:  There are 5 other sessions using the database.
+STATEMENT:  DROP DATABASE IF EXISTS "student_book_development"
+ERROR:  duplicate key value violates unique constraint "index_users_on_user_name"
+DETAIL:  Key (user_name)=(admin) already exists.
+STATEMENT:  INSERT INTO "users" ("encrypted_password", "name", "kana", "number", "user_name", "course_id", "type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"
+ERROR:  database "student_book_development" is being accessed by other users
+DETAIL:  There are 5 other sessions using the database.
+STATEMENT:  DROP DATABASE IF EXISTS "student_book_development"
+ERROR:  database "student_book_development" is being accessed by other users
+DETAIL:  There are 5 other sessions using the database.
+STATEMENT:  DROP DATABASE IF EXISTS "student_book_development"

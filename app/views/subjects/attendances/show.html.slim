@@ -1,16 +1,16 @@
 table.table
   thead
     tr
+      th number
       th name
       th kana
-      th number
       th attendance
   tbody
     - @attendances.includes(:student).order('users.number ASC').each do |attendance|
       tr
+        td = attendance.student.number
         td = attendance.student.name
         td = attendance.student.kana
-        td = attendance.student.number
         td
           = form_for attendance do |f|
             = f.select :status, [['遅刻', 'late'], ['欠課', 'absence']], include_blank: true, select: attendance.status

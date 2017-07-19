@@ -7,16 +7,26 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 teacher = Teacher.create(name: 'takayama', kana: 'takayama', number: 'admin', user_name: 'admin', course_id: 1, password: 'hogehoge')
+teacher = Teacher.create(name: 'miyazaki', kana: 'miyazaki', number: 'admin', user_name: 'miyazaki', course_id: 2, password: 'hogehoge')
 student = Student.create(name: '生徒', kana: 'せいと', number: '1', user_name: 'student', course_id: 1, password: 'hogehoge')
 
+# subject = teacher.subjects.create(
+#   teacher_id: 1,
+#   timetable: [3, 4],
+#   name: '自然言語処理(本科5年)',
+#   order: [1],
+#   year: 5,
+#   semester: 0,   #1:通年(30回),0:半期(15回)    day_of_week:5,  # 1=月曜日からスタート
+#   day_of_week: 5
+# )
 subject = teacher.subjects.create(
-  teacher_id: 1,
-  timetable: [3, 4],
-  name: '自然言語処理(本科5年)',
+  teacher_id: 2,
+  timetable: [1, 2],
+  name: '統計学',
   order: [1],
   year: 5,
   semester: 0,   #0:通年(30回),1:半期(15回)    day_of_week:5,  # 1=月曜日からスタート
-  day_of_week: 5
+  day_of_week: 2
 )
 teacher1 = Teacher.create(
     password: '000000',
@@ -96,6 +106,9 @@ student5 = Student.create(
     student_id: student1.id,
     subject_id: 1
   )
+
+
+Subject.find(1).save
 
 subject.student_subjects.create
 
