@@ -23,3 +23,5 @@ STATEMENT:  DROP DATABASE IF EXISTS "student_book_development"
 ERROR:  database "student_book_development" is being accessed by other users
 DETAIL:  There are 5 other sessions using the database.
 STATEMENT:  DROP DATABASE IF EXISTS "student_book_development"
+ERROR:  type "ingeger" does not exist at character 46
+STATEMENT:  ALTER TABLE "notifications" ADD "subject_id" ingeger
